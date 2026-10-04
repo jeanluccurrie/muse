@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --era-accent: #8a6a30;
+  --era-accent-dim: #6a5020;
+  --era-accent-subtle: #f5ede0;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #111111;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Remove default input styles */
+  input:focus {
+    outline: none;
+  }
+
+  /* Remove number input spinners */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

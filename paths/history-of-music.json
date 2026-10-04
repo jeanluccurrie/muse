@@ -1,0 +1,1441 @@
+{
+  "id": "history-of-music",
+  "name": "The History of Music",
+  "description": "A curated journey from roughly 1600 to the present, spanning 11 eras and 33 required albums. A curriculum that happens to play music — linear, deliberate, focused on active understanding over passive consumption.",
+  "version": "1.0.0",
+  "eras": [
+    {
+      "id": "era-1-early-baroque",
+      "number": 1,
+      "name": "Early Baroque",
+      "year_range": "1600–1700",
+      "tagline": "Music Becomes Dramatic",
+      "what_to_learn": [
+        "Tonality begins to consolidate — the gravitational pull of major and minor keys",
+        "Basso continuo and functional harmony: a bass line becomes the engine of music",
+        "Opera and oratorio emerge: music as theater, music as narrative",
+        "The shift from Renaissance polyphony to dramatic solo expression"
+      ],
+      "key_figures": ["Claudio Monteverdi", "Arcangelo Corelli", "Jean-Baptiste Lully", "Henry Purcell"],
+      "required_albums": [
+        {
+          "id": "corelli-concerti-grossi-op-6",
+          "role": "gateway",
+          "artist": "Arcangelo Corelli",
+          "title": "12 Concerti Grossi, Op. 6",
+          "performer": "The English Concert, Trevor Pinnock",
+          "year": 1714,
+          "why_role": "Corelli is the easiest entry point into Baroque music. The Concerti Grossi are elegant, rhythmically propulsive, and immediately pleasing. The interplay between the small solo group and the full ensemble is easy to hear. No prior musical knowledge needed — just listen to how the parts move together.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Corelli", "A. Corelli", "Arcangelo Corelli"],
+            "title_aliases": ["Concerti Grossi Op. 6", "Concerti Grossi, Op. 6", "12 Concerti Grossi", "Op. 6"]
+          }
+        },
+        {
+          "id": "monteverdi-vespers-1610",
+          "role": "deep-dive",
+          "artist": "Claudio Monteverdi",
+          "title": "Vespers of 1610",
+          "performer": "Dunedin Consort",
+          "year": 1610,
+          "why_role": "This is a towering, complex work — the moment where Renaissance polyphony and Baroque drama collide. It demands sustained attention across its 90-minute span. It's grand, strange, and overwhelming in the best way. The listener will hear the old world and the new world existing simultaneously.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Monteverdi", "Claudio Monteverdi", "C. Monteverdi"],
+            "title_aliases": ["Vespers of 1610", "Vespro della Beata Vergine", "Vespers 1610", "1610 Vespers"]
+          }
+        },
+        {
+          "id": "purcell-dido-and-aeneas",
+          "role": "bridge-forward",
+          "artist": "Henry Purcell",
+          "title": "Dido and Aeneas",
+          "performer": "William Christie / Les Arts Florissants",
+          "year": 1689,
+          "why_role": "Purcell's opera is compact, emotionally direct, and theatrical in a way that points toward everything that comes next. The famous 'Dido's Lament' ground bass is a technique that will echo through centuries of music.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Purcell", "Henry Purcell", "H. Purcell"],
+            "title_aliases": ["Dido and Aeneas", "Dido & Aeneas"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "monteverdi-lorfeo",
+          "artist": "Claudio Monteverdi",
+          "title": "L'Orfeo",
+          "performer": "La Venexiana or Gardiner",
+          "note": "The first great opera. Where music-as-drama begins."
+        },
+        {
+          "id": "lully-atys",
+          "artist": "Jean-Baptiste Lully",
+          "title": "Atys",
+          "performer": "Christie / Les Arts Florissants",
+          "note": "French Baroque grandeur. The Sun King's soundtrack."
+        },
+        {
+          "id": "biber-rosary-sonatas",
+          "artist": "Heinrich Biber",
+          "title": "Rosary Sonatas",
+          "performer": "Rachel Podger",
+          "note": "Virtuosic, mystical solo violin music. Radical for its time."
+        },
+        {
+          "id": "corelli-violin-sonatas-op-5",
+          "artist": "Arcangelo Corelli",
+          "title": "Violin Sonatas, Op. 5",
+          "performer": "Andrew Manze",
+          "note": "The foundation of Baroque violin writing."
+        },
+        {
+          "id": "purcell-the-fairy-queen",
+          "artist": "Henry Purcell",
+          "title": "The Fairy Queen",
+          "performer": "Gardiner",
+          "note": "Semi-opera: theater, spectacle, and ravishing music."
+        },
+        {
+          "id": "charpentier-te-deum",
+          "artist": "Marc-Antoine Charpentier",
+          "title": "Te Deum",
+          "performer": "Hervé Niquet",
+          "note": "French ceremonial grandeur."
+        }
+      ],
+      "era_bridge_to_next": "The Early Baroque established the basic grammar: a bass line drives the harmony, voices and instruments become soloists with individual character, and music tells stories. But the architecture was still loose — expressive, theatrical, exploratory. What comes next is consolidation. Bach and Handel will take these raw materials and build cathedrals from them."
+    },
+    {
+      "id": "era-2-high-baroque",
+      "number": 2,
+      "name": "High Baroque",
+      "year_range": "1700–1750",
+      "tagline": "Architecture and Kinetic Rhythm",
+      "what_to_learn": [
+        "Counterpoint: multiple independent melodic lines woven together simultaneously",
+        "Dance rhythms embedded in 'serious' music — the hidden kinetic energy of Bach",
+        "The concerto, the suite, the oratorio as mature forms",
+        "The idea of musical 'architecture' — large-scale structural thinking"
+      ],
+      "key_figures": ["Johann Sebastian Bach", "George Frideric Handel"],
+      "required_albums": [
+        {
+          "id": "bach-brandenburg-concertos",
+          "role": "gateway",
+          "artist": "Johann Sebastian Bach",
+          "title": "Brandenburg Concertos",
+          "performer": "Rachel Podger / Brecon Baroque",
+          "year": 1721,
+          "why_role": "The Brandenburgs are Bach at his most joyful and accessible. Each concerto has a different instrumentation, a different personality. The rhythmic energy is infectious. You don't need to understand counterpoint to feel these — but by Listen 3, you'll start hearing how the parts interlock like gears in a machine.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Bach", "J.S. Bach", "J. S. Bach", "Johann Sebastian Bach"],
+            "title_aliases": ["Brandenburg Concertos", "6 Brandenburg Concertos", "Brandenburgs", "BWV 1046-1051"]
+          }
+        },
+        {
+          "id": "bach-cello-suites",
+          "role": "deep-dive",
+          "artist": "Johann Sebastian Bach",
+          "title": "Cello Suites",
+          "performer": "Yo-Yo Ma or Anner Bylsma",
+          "year": 1720,
+          "why_role": "A single instrument, alone, for over two hours. The Cello Suites strip away everything except pure musical thought. They are dance movements — but dances of extraordinary depth. The listener must find the drama in a solo voice.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Bach", "J.S. Bach", "J. S. Bach"],
+            "title_aliases": ["Cello Suites", "6 Cello Suites", "Six Cello Suites", "Suites for Unaccompanied Cello", "BWV 1007-1012"]
+          }
+        },
+        {
+          "id": "handel-messiah",
+          "role": "bridge-forward",
+          "artist": "George Frideric Handel",
+          "title": "Messiah",
+          "performer": "John Eliot Gardiner",
+          "year": 1741,
+          "why_role": "Handel's Messiah is monumental but also tuneful, dramatic, and emotionally direct. The directness and melodic clarity of Handel points toward the Classical era's emphasis on elegance and accessibility.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Handel", "G.F. Handel", "George Frideric Handel", "George Frederick Handel"],
+            "title_aliases": ["Messiah", "The Messiah", "Hallelujah"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "bach-well-tempered-clavier-1",
+          "artist": "Johann Sebastian Bach",
+          "title": "The Well-Tempered Clavier, Book 1",
+          "performer": "Angela Hewitt or András Schiff",
+          "note": "The keyboard bible. Every key, every mood."
+        },
+        {
+          "id": "bach-mass-b-minor",
+          "artist": "Johann Sebastian Bach",
+          "title": "Mass in B Minor",
+          "performer": "Gardiner",
+          "note": "The sacred counterpart to the Brandenburgs. Monumental."
+        },
+        {
+          "id": "vivaldi-four-seasons",
+          "artist": "Antonio Vivaldi",
+          "title": "The Four Seasons",
+          "performer": "Fabio Biondi / Europa Galante",
+          "note": "The Baroque's greatest 'pop' hit. Easy to love, deeper than you think."
+        },
+        {
+          "id": "handel-water-music",
+          "artist": "George Frideric Handel",
+          "title": "Water Music",
+          "performer": "Trevor Pinnock",
+          "note": "Baroque as celebration. Pure outdoor joy."
+        },
+        {
+          "id": "rameau-les-indes-galantes",
+          "artist": "Jean-Philippe Rameau",
+          "title": "Les Indes Galantes",
+          "performer": "Christie",
+          "note": "French Baroque opera-ballet at its most colorful."
+        },
+        {
+          "id": "bach-goldberg-variations",
+          "artist": "Johann Sebastian Bach",
+          "title": "Goldberg Variations",
+          "performer": "Glenn Gould (1981 recording)",
+          "note": "One theme, thirty variations, infinite depth."
+        },
+        {
+          "id": "telemann-tafelmusik",
+          "artist": "Georg Philipp Telemann",
+          "title": "Tafelmusik (selections)",
+          "performer": "Musica Antiqua Köln",
+          "note": "The most popular composer of his era. Elegant, social, infectious."
+        }
+      ],
+      "era_bridge_to_next": "Bach and Handel built the cathedral. But by mid-century, a new generation found it too complex, too heavy, too learned. They wanted clarity, elegance, tuneful melody — music that breathed. The galant style swept Europe: lighter textures, singable themes, transparent structures. Bach's own sons helped lead the revolution against their father's style. What emerges is a new grammar — sonata form — that will organize Western music for the next 200 years."
+    },
+    {
+      "id": "era-3-classical",
+      "number": 3,
+      "name": "Classical",
+      "year_range": "1750–1820",
+      "tagline": "Form, Clarity, and the Grammar of Music",
+      "what_to_learn": [
+        "Sonata form: the tension-development-return structure that organizes almost all Western art music from here forward",
+        "The symphony, string quartet, and piano concerto as prestige forms",
+        "Melodic 'sentence' structures — phrases that ask questions and give answers",
+        "The balance between individual expression and formal discipline"
+      ],
+      "key_figures": ["Joseph Haydn", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"],
+      "required_albums": [
+        {
+          "id": "mozart-piano-concertos-20-21",
+          "role": "gateway",
+          "artist": "Wolfgang Amadeus Mozart",
+          "title": "Piano Concertos Nos. 20 & 21",
+          "performer": "Murray Perahia",
+          "year": 1786,
+          "why_role": "These two concertos are the heart of Mozart — one dark and stormy (No. 20 in D minor), one luminous and serene (No. 21 in C major). They are immediately beautiful, emotionally vivid, and perfectly structured.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Mozart", "W.A. Mozart", "Wolfgang Amadeus Mozart", "W. A. Mozart"],
+            "title_aliases": ["Piano Concertos 20 & 21", "Piano Concertos Nos. 20 & 21", "K. 466 & K. 467", "Piano Concerto No. 20 / No. 21"]
+          }
+        },
+        {
+          "id": "haydn-string-quartets-op-76",
+          "role": "deep-dive",
+          "artist": "Joseph Haydn",
+          "title": "String Quartets, Op. 76",
+          "performer": "Quatuor Mosaïques",
+          "year": 1797,
+          "why_role": "Haydn invented the string quartet as a serious art form, and Op. 76 is his summit. Four instruments, no hiding — every idea is exposed. The listener must track four voices in conversation. This is where you learn to hear form as a living thing.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Haydn", "Joseph Haydn", "J. Haydn"],
+            "title_aliases": ["String Quartets Op. 76", "String Quartets, Op. 76", "Op. 76 Quartets", "Erdödy Quartets"]
+          }
+        },
+        {
+          "id": "beethoven-symphonies-5-7",
+          "role": "bridge-forward",
+          "artist": "Ludwig van Beethoven",
+          "title": "Symphonies Nos. 5 & 7",
+          "performer": "Carlos Kleiber",
+          "year": 1812,
+          "why_role": "Beethoven is the hinge of Western music. The Fifth Symphony is relentless forward motion. The Seventh is rhythm unleashed. Beethoven takes Classical form and pushes it until it cracks — and what spills out is Romanticism.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Beethoven", "Ludwig van Beethoven", "L. van Beethoven"],
+            "title_aliases": ["Symphonies 5 & 7", "Symphonies Nos. 5 & 7", "Symphony No. 5 / Symphony No. 7", "5th & 7th Symphony"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "mozart-requiem",
+          "artist": "Wolfgang Amadeus Mozart",
+          "title": "Requiem",
+          "performer": "Gardiner or Currentzis",
+          "note": "Mozart's final, unfinished work. Dark, desperate, sublime."
+        },
+        {
+          "id": "beethoven-piano-sonatas-pathetique-moonlight-appassionata",
+          "artist": "Ludwig van Beethoven",
+          "title": "Piano Sonatas (Pathétique, Moonlight, Appassionata)",
+          "performer": "Pollini or Barenboim",
+          "note": "Beethoven's keyboard laboratory."
+        },
+        {
+          "id": "haydn-symphonies-94-104",
+          "artist": "Joseph Haydn",
+          "title": "Symphonies Nos. 94 'Surprise' & 104 'London'",
+          "performer": "Jochum or Fischer",
+          "note": "The wit and invention of the symphony's inventor."
+        },
+        {
+          "id": "mozart-marriage-of-figaro",
+          "artist": "Wolfgang Amadeus Mozart",
+          "title": "The Marriage of Figaro",
+          "performer": "Jacobs or Giulini",
+          "note": "Opera as social revolution."
+        },
+        {
+          "id": "beethoven-symphony-9",
+          "artist": "Ludwig van Beethoven",
+          "title": "Symphony No. 9 'Choral'",
+          "performer": "Gardiner or Furtwängler",
+          "note": "The symphony that broke the form open."
+        },
+        {
+          "id": "mozart-symphony-41-jupiter",
+          "artist": "Wolfgang Amadeus Mozart",
+          "title": "Symphony No. 41 'Jupiter'",
+          "performer": "Bernstein",
+          "note": "The Classical symphony at its most majestic."
+        },
+        {
+          "id": "beethoven-late-string-quartets",
+          "artist": "Ludwig van Beethoven",
+          "title": "Late String Quartets",
+          "performer": "Takács Quartet",
+          "note": "Music from another planet. The most radical compositions of the 19th century."
+        }
+      ],
+      "era_bridge_to_next": "Beethoven blew the walls off Classical form. His late works are so personal, so extreme, so unlike anything before them that every composer who followed had to reckon with his shadow. The question after Beethoven: if music can express this much individual feeling, where does it go next? The answer is everywhere. The Romantics will chase emotion to its limits: bigger orchestras, longer forms, wilder harmonies, and the rise of the virtuoso as hero."
+    },
+    {
+      "id": "era-4-romantic",
+      "number": 4,
+      "name": "Romantic",
+      "year_range": "1820–1910",
+      "tagline": "Emotion, Virtuosity, Nationalism",
+      "what_to_learn": [
+        "Harmony stretches beyond Classical norms — chromaticism, ambiguity, surprise",
+        "Rhythm becomes elastic — rubato, expressive timing",
+        "The rise of the virtuoso and the cult of individual 'voice'",
+        "National and folk identity becomes composed — music as cultural identity",
+        "The art song (Lied) as a vehicle for poetic expression"
+      ],
+      "key_figures": ["Franz Schubert", "Frédéric Chopin", "Franz Liszt", "Johannes Brahms", "Richard Wagner", "Antonín Dvořák", "Pyotr Ilyich Tchaikovsky", "Gustav Mahler"],
+      "required_albums": [
+        {
+          "id": "chopin-nocturnes",
+          "role": "gateway",
+          "artist": "Frédéric Chopin",
+          "title": "Nocturnes",
+          "performer": "Arthur Rubinstein",
+          "year": 1846,
+          "why_role": "The Nocturnes are pure beauty. Solo piano, singing melodies, intimate scale. This is the Romantic aesthetic at its most accessible — personal, expressive, and immediately touching. The listener hears what 'individual voice' means in music.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Chopin", "Frédéric Chopin", "Frederic Chopin", "F. Chopin"],
+            "title_aliases": ["Nocturnes", "21 Nocturnes", "Nocturnes Complete"]
+          }
+        },
+        {
+          "id": "schubert-winterreise",
+          "role": "deep-dive",
+          "artist": "Franz Schubert",
+          "title": "Winterreise",
+          "performer": "Dietrich Fischer-Dieskau or Ian Bostridge",
+          "year": 1827,
+          "why_role": "A song cycle about a rejected lover wandering through a frozen landscape — 24 songs of increasing desolation. One of the greatest works of art in any medium. This is art that demands emotional endurance.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Schubert", "Franz Schubert", "F. Schubert"],
+            "title_aliases": ["Winterreise", "Winter Journey", "D. 911"]
+          }
+        },
+        {
+          "id": "dvorak-symphony-9",
+          "role": "bridge-forward",
+          "artist": "Antonín Dvořák",
+          "title": "Symphony No. 9 'From the New World'",
+          "performer": "István Kertész or Karajan",
+          "year": 1893,
+          "why_role": "Dvořák, a Czech composer in New York, absorbs the sounds of America — spirituals, folk melodies, pentatonic scales — and channels them into a European symphonic form. It points directly toward the 20th century's transatlantic musical conversation.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Dvořák", "Antonín Dvořák", "Antonin Dvorak", "A. Dvořák"],
+            "title_aliases": ["Symphony No. 9", "New World Symphony", "From the New World", "Symphony No. 9 'From the New World'", "Op. 95"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "brahms-symphony-4",
+          "artist": "Johannes Brahms",
+          "title": "Symphony No. 4",
+          "performer": "Kleiber or Karajan",
+          "note": "Romantic emotion held in Classical discipline."
+        },
+        {
+          "id": "wagner-tristan-und-isolde-excerpts",
+          "artist": "Richard Wagner",
+          "title": "Tristan und Isolde (Prelude and Liebestod)",
+          "performer": "Furtwängler or Thielemann",
+          "note": "The harmony that broke the rules of Western music."
+        },
+        {
+          "id": "liszt-piano-sonata-b-minor",
+          "artist": "Franz Liszt",
+          "title": "Piano Sonata in B minor",
+          "performer": "Zimerman or Argerich",
+          "note": "Virtuosity as philosophy."
+        },
+        {
+          "id": "tchaikovsky-symphony-6",
+          "artist": "Pyotr Ilyich Tchaikovsky",
+          "title": "Symphony No. 6 'Pathétique'",
+          "performer": "Mravinsky",
+          "note": "Romanticism's darkest hour."
+        },
+        {
+          "id": "mahler-symphony-2",
+          "artist": "Gustav Mahler",
+          "title": "Symphony No. 2 'Resurrection'",
+          "performer": "Bernstein",
+          "note": "The Romantic orchestra at its most massive and transcendent."
+        },
+        {
+          "id": "schumann-dichterliebe",
+          "artist": "Robert Schumann",
+          "title": "Dichterliebe",
+          "performer": "Fischer-Dieskau",
+          "note": "The other great Romantic song cycle."
+        },
+        {
+          "id": "bruckner-symphony-7",
+          "artist": "Anton Bruckner",
+          "title": "Symphony No. 7",
+          "performer": "Karajan or Celibidache",
+          "note": "Cathedral-scale symphonic architecture."
+        },
+        {
+          "id": "mendelssohn-violin-concerto",
+          "artist": "Felix Mendelssohn",
+          "title": "Violin Concerto in E minor",
+          "performer": "Hilary Hahn or Heifetz",
+          "note": "Romantic virtuosity at its most elegant."
+        },
+        {
+          "id": "verdi-la-traviata",
+          "artist": "Giuseppe Verdi",
+          "title": "La Traviata",
+          "performer": "Callas or Gheorghiu",
+          "note": "Italian opera's emotional peak."
+        },
+        {
+          "id": "wagner-ring-excerpts",
+          "artist": "Richard Wagner",
+          "title": "Der Ring des Nibelungen (orchestral excerpts)",
+          "performer": "Solti",
+          "note": "The most ambitious artwork in Western history."
+        },
+        {
+          "id": "rachmaninoff-piano-concerto-2",
+          "artist": "Sergei Rachmaninoff",
+          "title": "Piano Concerto No. 2",
+          "performer": "Richter or Argerich",
+          "note": "Late Romanticism at its most sweeping and cinematic."
+        },
+        {
+          "id": "grieg-peer-gynt-suites",
+          "artist": "Edvard Grieg",
+          "title": "Peer Gynt Suites",
+          "performer": "Karajan",
+          "note": "Norwegian nationalism in music. Landscape as sound."
+        }
+      ],
+      "era_bridge_to_next": "By the end of the 19th century, Romantic harmony had stretched so far that the old rules were barely holding. Debussy heard Javanese gamelan music at the 1889 Paris Exposition and realized there was a whole world of sound beyond German Romanticism. Stravinsky would soon detonate rhythm as a weapon. The Romantics had chased feeling to its limit. The modernists asked: what if music isn't about feeling at all? What if it's about sound itself?"
+    },
+    {
+      "id": "era-5-early-modernism",
+      "number": 5,
+      "name": "Early Modernism",
+      "year_range": "1890–1930",
+      "tagline": "Color, Rhythm, Shock",
+      "what_to_learn": [
+        "Timbre and texture become as important as melody and harmony",
+        "Rhythm sharpens, becomes angular, becomes a compositional weapon",
+        "Harmony becomes ambiguous — no longer clearly 'home' in a key",
+        "Folk and non-Western influences absorbed into art music",
+        "The orchestra becomes a palette of colors, not just a vehicle for tunes"
+      ],
+      "key_figures": ["Claude Debussy", "Igor Stravinsky", "Maurice Ravel", "Erik Satie", "Béla Bartók"],
+      "required_albums": [
+        {
+          "id": "debussy-la-mer",
+          "role": "gateway",
+          "artist": "Claude Debussy",
+          "title": "La mer",
+          "performer": "Claudio Abbado",
+          "year": 1905,
+          "why_role": "La mer is the most accessible gateway to musical modernism. It sounds like the ocean — shimmering, constantly changing, never quite repeating. Harmony floats. Melody dissolves into color. Time feels suspended. This is music as atmosphere.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Debussy", "Claude Debussy", "C. Debussy"],
+            "title_aliases": ["La mer", "The Sea", "La Mer"]
+          }
+        },
+        {
+          "id": "stravinsky-rite-of-spring",
+          "role": "deep-dive",
+          "artist": "Igor Stravinsky",
+          "title": "The Rite of Spring",
+          "performer": "Stravinsky conducts or Pierre Boulez",
+          "year": 1913,
+          "why_role": "The Rite famously caused a riot at its 1913 premiere. It is rhythm as violence, as primal energy. The listener must let go of everything they've learned about 'beauty' and surrender to rhythmic force. This is the most challenging listen in the first half of the curriculum.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Stravinsky", "Igor Stravinsky", "I. Stravinsky"],
+            "title_aliases": ["The Rite of Spring", "Rite of Spring", "Le Sacre du Printemps", "Sacre du Printemps"]
+          }
+        },
+        {
+          "id": "ravel-daphnis-et-chloe",
+          "role": "bridge-forward",
+          "artist": "Maurice Ravel",
+          "title": "Daphnis et Chloé (complete)",
+          "performer": "Charles Dutoit",
+          "year": 1912,
+          "why_role": "Ravel synthesizes Debussy's color and Stravinsky's rhythmic energy into something sumptuous and seductive. Ravel's rhythms are tighter, more dance-driven, more groove-oriented. European composers were explicitly hearing ragtime and early jazz by this point. The transatlantic loop is closing.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Ravel", "Maurice Ravel", "M. Ravel"],
+            "title_aliases": ["Daphnis et Chloé", "Daphnis et Chloe", "Daphnis and Chloe"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "satie-gymnopedies-gnossiennes",
+          "artist": "Erik Satie",
+          "title": "Gymnopédies / Gnossiennes",
+          "performer": "Aldo Ciccolini or Reinbert de Leeuw",
+          "note": "Radical simplicity. The anti-Romantic."
+        },
+        {
+          "id": "bartok-string-quartets",
+          "artist": "Béla Bartók",
+          "title": "String Quartets",
+          "performer": "Takács Quartet",
+          "note": "Folk music + modernist rigor. The 20th century's greatest quartets."
+        },
+        {
+          "id": "stravinsky-petrushka",
+          "artist": "Igor Stravinsky",
+          "title": "Petrushka",
+          "performer": "Boulez",
+          "note": "Before the Rite, Stravinsky wrote this brilliant, colorful ballet."
+        },
+        {
+          "id": "debussy-preludes-books-1-2",
+          "artist": "Claude Debussy",
+          "title": "Preludes for Piano, Books 1 & 2",
+          "performer": "Krystian Zimerman",
+          "note": "Miniature worlds of color and suggestion."
+        },
+        {
+          "id": "ravel-piano-concerto-g",
+          "artist": "Maurice Ravel",
+          "title": "Piano Concerto in G",
+          "performer": "Martha Argerich",
+          "note": "Jazz-inflected, dazzling, and witty."
+        },
+        {
+          "id": "prokofiev-romeo-and-juliet",
+          "artist": "Sergei Prokofiev",
+          "title": "Romeo and Juliet (selections)",
+          "performer": "Gergiev",
+          "note": "Modernism meets storytelling."
+        },
+        {
+          "id": "schoenberg-verklarte-nacht",
+          "artist": "Arnold Schoenberg",
+          "title": "Verklärte Nacht",
+          "performer": "Hollywood String Quartet or Karajan",
+          "note": "The last gasp of late Romanticism tipping into something new."
+        },
+        {
+          "id": "bartok-music-for-strings-percussion-celesta",
+          "artist": "Béla Bartók",
+          "title": "Music for Strings, Percussion, and Celesta",
+          "performer": "Fritz Reiner",
+          "note": "The rhythmic and textural edge of modernism at its sharpest."
+        }
+      ],
+      "era_bridge_to_next": "European art music had spent 300 years developing harmony, form, and orchestral color. But by the early 20th century, its most adventurous composers were looking outward — to Javanese gamelan, to African rhythms, to American ragtime. What they were hearing was a musical logic that had been developing in parallel for centuries: not harmony-first but rhythm-first, not written but oral, not concert-hall but communal. To understand where music goes next, we need to go back and trace that parallel story."
+    },
+    {
+      "id": "era-6-african-musical-traditions",
+      "number": 6,
+      "name": "African Musical Traditions",
+      "year_range": "1600s–1900s",
+      "tagline": "West and Central Africa → the Americas",
+      "what_to_learn": [
+        "Polyrhythm and layered time — multiple rhythmic patterns interlocking simultaneously",
+        "Call-and-response — communal music-making as dialogue",
+        "Blue-note pitch inflection — notes bent between fixed pitches, voice-like expressivity",
+        "Music as social function — for dance, work, ritual, community",
+        "How these traditions traveled to the Americas through the slave trade and fused with European harmony"
+      ],
+      "key_figures": ["Ali Farka Touré", "Mahalia Jackson"],
+      "required_albums": [
+        {
+          "id": "ali-farka-toure-talking-timbuktu",
+          "role": "gateway",
+          "artist": "Ali Farka Touré",
+          "title": "Talking Timbuktu",
+          "performer": "with Ry Cooder",
+          "year": 1994,
+          "why_role": "The listener will immediately hear blues in this album — and then realize the arrow of influence runs the opposite direction from what they assumed. West African guitar music doesn't descend from the blues. The blues descends from this. A revelatory listen that reframes everything.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Ali Farka Touré", "Ali Farka Toure", "Ali Farka"],
+            "title_aliases": ["Talking Timbuktu"]
+          }
+        },
+        {
+          "id": "buena-vista-social-club",
+          "role": "deep-dive",
+          "artist": "Buena Vista Social Club",
+          "title": "Buena Vista Social Club",
+          "performer": "produced by Ry Cooder",
+          "year": 1997,
+          "why_role": "Having heard the West African source, the listener now hears how the same African rhythmic traditions produced something completely different in Cuba. Same source, different fruit. That's a more demanding act of listening than simply enjoying the album — which is also very easy to do.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Buena Vista Social Club", "BVSC"],
+            "title_aliases": ["Buena Vista Social Club"]
+          }
+        },
+        {
+          "id": "mahalia-jackson-amazing-grace",
+          "role": "bridge-forward",
+          "artist": "Mahalia Jackson",
+          "title": "Amazing Grace",
+          "performer": "Mahalia Jackson",
+          "year": 1947,
+          "why_role": "Gospel is the hinge. African musical traditions — call-and-response, melismatic vocal expression, rhythmic intensity, communal participation — meet European hymn harmony in the Black church. Everything that follows in American popular music passes through this crucible.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Mahalia Jackson", "M. Jackson"],
+            "title_aliases": ["Amazing Grace", "Amazing Grace and Other Gospel"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "fela-kuti-expensive-shit",
+          "artist": "Fela Kuti",
+          "title": "Expensive Shit / He Miss Road",
+          "performer": "Fela Kuti",
+          "note": "Afrobeat: James Brown's funk re-exported to Africa + Yoruba rhythms."
+        },
+        {
+          "id": "various-roots-of-rhythm",
+          "artist": "Various Artists",
+          "title": "The Roots of Rhythm",
+          "performer": "Smithsonian",
+          "note": "Field recordings tracing African rhythmic traditions into the Americas."
+        },
+        {
+          "id": "miriam-makeba-world-of",
+          "artist": "Miriam Makeba",
+          "title": "The World of Miriam Makeba",
+          "performer": "Miriam Makeba",
+          "note": "South African vocal tradition meets the global stage."
+        },
+        {
+          "id": "toumani-diabate-new-ancient-strings",
+          "artist": "Toumani Diabaté",
+          "title": "New Ancient Strings",
+          "performer": "Toumani Diabaté",
+          "note": "Kora music of extraordinary beauty and complexity."
+        },
+        {
+          "id": "cesaria-evora-miss-perfumado",
+          "artist": "Cesária Évora",
+          "title": "Miss Perfumado",
+          "performer": "Cesária Évora",
+          "note": "Cape Verdean morna: Portuguese melancholy meets African rhythm."
+        },
+        {
+          "id": "compay-segundo-lo-mejor",
+          "artist": "Compay Segundo",
+          "title": "Lo Mejor de la Vida",
+          "performer": "Compay Segundo",
+          "note": "Cuban son at its most elegant."
+        }
+      ],
+      "era_bridge_to_next": "The musical traditions of West and Central Africa — carried to the Americas by force — did not disappear. They adapted. In the cotton fields, the churches, the juke joints, and the parlors of New Orleans, African rhythmic logic merged with European harmony, instruments, and song forms. The blues gives it a harmonic shape. Ragtime gives it syncopation. Jazz gives it improvisation. The American century is about to begin."
+    },
+    {
+      "id": "era-7-blues-ragtime-early-jazz",
+      "number": 7,
+      "name": "Blues, Ragtime, Early Jazz",
+      "year_range": "1900–1945",
+      "tagline": "American Grammar Forms",
+      "what_to_learn": [
+        "Blues form: the 12-bar structure, its variants, and its emotional vocabulary",
+        "Microtiming and swing — the rhythmic feel that makes American music move differently",
+        "Ragtime syncopation as a bridge between European form and African rhythm",
+        "The soloist as improviser — individual voice emerging from collective sound"
+      ],
+      "key_figures": ["Scott Joplin", "Bessie Smith", "Robert Johnson", "Louis Armstrong", "Duke Ellington"],
+      "required_albums": [
+        {
+          "id": "armstrong-hot-fives-hot-sevens",
+          "role": "gateway",
+          "artist": "Louis Armstrong",
+          "title": "Hot Fives & Hot Sevens",
+          "performer": "Louis Armstrong and His Hot Five / Hot Seven",
+          "year": 1925,
+          "why_role": "Armstrong single-handedly invented jazz soloing. Before him, jazz was ensemble music. Armstrong stepped out in front and made the individual voice the center of everything. This is the Big Bang of American popular music.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Louis Armstrong", "Satchmo", "L. Armstrong"],
+            "title_aliases": ["Hot Fives & Hot Sevens", "Hot Fives and Hot Sevens", "The Complete Hot Five & Hot Seven Recordings"]
+          }
+        },
+        {
+          "id": "robert-johnson-complete-recordings",
+          "role": "deep-dive",
+          "artist": "Robert Johnson",
+          "title": "The Complete Recordings",
+          "performer": "Robert Johnson",
+          "year": 1936,
+          "why_role": "Just a man, a guitar, and the blues. Johnson's recordings are raw, haunted, and technically astonishing. The listener must adjust to lo-fi 1930s recording quality and find the universe inside it.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Robert Johnson"],
+            "title_aliases": ["The Complete Recordings", "Complete Recordings", "Robert Johnson: The Complete Recordings"]
+          }
+        },
+        {
+          "id": "ellington-at-newport",
+          "role": "bridge-forward",
+          "artist": "Duke Ellington",
+          "title": "Ellington at Newport",
+          "performer": "Duke Ellington and His Orchestra",
+          "year": 1956,
+          "why_role": "Ellington bridges everything — European orchestration, jazz improvisation, and live showmanship. The Newport concert is explosive. Ellington points forward to bebop's complexity and soul music's energy simultaneously.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Duke Ellington", "Ellington", "D. Ellington"],
+            "title_aliases": ["Ellington at Newport", "At Newport", "Ellington at Newport 1956"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "scott-joplin-ragtime",
+          "artist": "Scott Joplin",
+          "title": "Ragtime",
+          "performer": "Joshua Rifkin",
+          "note": "The syncopated bridge between European piano music and jazz."
+        },
+        {
+          "id": "bessie-smith-essential",
+          "artist": "Bessie Smith",
+          "title": "The Essential Bessie Smith",
+          "performer": "Bessie Smith",
+          "note": "The Empress of the Blues."
+        },
+        {
+          "id": "jelly-roll-morton-library-of-congress",
+          "artist": "Jelly Roll Morton",
+          "title": "The Complete Library of Congress Recordings",
+          "performer": "Jelly Roll Morton",
+          "note": "Jazz's first great composer-theorist."
+        },
+        {
+          "id": "billie-holiday-lady-sings-the-blues",
+          "artist": "Billie Holiday",
+          "title": "Lady Sings the Blues / Greatest Hits",
+          "performer": "Billie Holiday",
+          "note": "Vocal jazz as autobiography."
+        },
+        {
+          "id": "django-reinhardt-djangology",
+          "artist": "Django Reinhardt",
+          "title": "Djangology",
+          "performer": "Django Reinhardt",
+          "note": "European jazz guitar. Romani swing meets American jazz."
+        },
+        {
+          "id": "lead-belly-where-did-you-sleep",
+          "artist": "Lead Belly",
+          "title": "Where Did You Sleep Last Night",
+          "performer": "Lead Belly",
+          "note": "Folk-blues at its rawest. A direct line to rock."
+        },
+        {
+          "id": "count-basie-atomic",
+          "artist": "Count Basie",
+          "title": "The Atomic Mr. Basie",
+          "performer": "Count Basie Orchestra",
+          "note": "Swing at its most powerful and streamlined."
+        },
+        {
+          "id": "ma-rainey-mother-of-the-blues",
+          "artist": "Ma Rainey",
+          "title": "Mother of the Blues",
+          "performer": "Ma Rainey",
+          "note": "Before Bessie Smith, there was Ma Rainey."
+        }
+      ],
+      "era_bridge_to_next": "By the 1940s, jazz was America's popular music. But a younger generation felt it had become too comfortable, too commercial. In Harlem's after-hours clubs, Charlie Parker, Dizzy Gillespie, and Thelonious Monk were reinventing jazz as something faster, more complex, and more intellectual. They didn't want you to dance. They wanted you to listen. Jazz was about to become modern art."
+    },
+    {
+      "id": "era-8-bebop-cool-hard-bop",
+      "number": 8,
+      "name": "Bebop → Cool → Hard Bop",
+      "year_range": "1945–1965",
+      "tagline": "Jazz Becomes Modern Art",
+      "what_to_learn": [
+        "Harmony accelerates — complex chord substitutions, rapid key changes",
+        "Improvisation becomes high-level real-time composition",
+        "Rhythmic feel: ride-cymbal time, conversational comping, the rhythm section as democratic unit",
+        "Jazz splinters into sub-styles: bebop's intensity, cool jazz's restraint, hard bop's soul"
+      ],
+      "key_figures": ["Charlie Parker", "Dizzy Gillespie", "Thelonious Monk", "Miles Davis", "John Coltrane", "Art Blakey"],
+      "required_albums": [
+        {
+          "id": "miles-davis-kind-of-blue",
+          "role": "gateway",
+          "artist": "Miles Davis",
+          "title": "Kind of Blue",
+          "performer": "Miles Davis",
+          "year": 1959,
+          "why_role": "Spacious, beautiful, and endlessly listenable. Miles invented modal jazz here — musicians improvise over scales rather than racing through chord changes, creating a meditative, open feeling. Accessible enough to love on first listen, deep enough to reward a lifetime of relistening.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Miles Davis", "M. Davis"],
+            "title_aliases": ["Kind of Blue"]
+          }
+        },
+        {
+          "id": "charlie-parker-savoy-dial-sessions",
+          "role": "deep-dive",
+          "artist": "Charlie Parker",
+          "title": "The Savoy & Dial Sessions",
+          "performer": "Charlie Parker",
+          "year": 1944,
+          "why_role": "If Kind of Blue is jazz as meditation, Parker is jazz as velocity. Bebop is fast, dense, and intellectually demanding. The listener must let go of the need to follow every note and instead feel the momentum.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Charlie Parker", "Bird", "Charlie 'Bird' Parker"],
+            "title_aliases": ["The Savoy & Dial Sessions", "Savoy and Dial Sessions", "The Complete Savoy and Dial Studio Recordings"]
+          }
+        },
+        {
+          "id": "art-blakey-moanin",
+          "role": "bridge-forward",
+          "artist": "Art Blakey and the Jazz Messengers",
+          "title": "Moanin'",
+          "performer": "Art Blakey and the Jazz Messengers",
+          "year": 1958,
+          "why_role": "Hard bop is what happens when bebop remembers the blues, the church, and the dance floor. Blakey's drumming is ferocious but grooves hard. This is the direct ancestor of soul music, funk, and every jazz-inflected pop genre that follows.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Art Blakey", "Art Blakey and the Jazz Messengers", "Jazz Messengers"],
+            "title_aliases": ["Moanin'", "Moanin"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "coltrane-blue-train",
+          "artist": "John Coltrane",
+          "title": "Blue Train",
+          "performer": "John Coltrane",
+          "note": "Hard bop at its most powerful and searching."
+        },
+        {
+          "id": "monk-brilliant-corners",
+          "artist": "Thelonious Monk",
+          "title": "Brilliant Corners",
+          "performer": "Thelonious Monk",
+          "note": "Angular, witty, utterly original. Jazz as puzzle."
+        },
+        {
+          "id": "brubeck-time-out",
+          "artist": "Dave Brubeck",
+          "title": "Time Out",
+          "performer": "Dave Brubeck Quartet",
+          "note": "Cool jazz meets odd time signatures."
+        },
+        {
+          "id": "mingus-ah-um",
+          "artist": "Charles Mingus",
+          "title": "Mingus Ah Um",
+          "performer": "Charles Mingus",
+          "note": "Jazz as protest, as autobiography, as collective explosion."
+        },
+        {
+          "id": "coltrane-a-love-supreme",
+          "artist": "John Coltrane",
+          "title": "A Love Supreme",
+          "performer": "John Coltrane",
+          "note": "Jazz as spiritual quest. The culmination of this era."
+        },
+        {
+          "id": "sonny-rollins-saxophone-colossus",
+          "artist": "Sonny Rollins",
+          "title": "Saxophone Colossus",
+          "performer": "Sonny Rollins",
+          "note": "The other great tenor. Melodic invention at its purest."
+        },
+        {
+          "id": "bill-evans-waltz-for-debby",
+          "artist": "Bill Evans",
+          "title": "Waltz for Debby",
+          "performer": "Bill Evans Trio",
+          "note": "Piano trio jazz at its most intimate and lyrical."
+        },
+        {
+          "id": "ornette-coleman-shape-of-jazz-to-come",
+          "artist": "Ornette Coleman",
+          "title": "The Shape of Jazz to Come",
+          "performer": "Ornette Coleman",
+          "note": "Free jazz begins. The most radical album of the era."
+        },
+        {
+          "id": "cannonball-adderley-somethin-else",
+          "artist": "Cannonball Adderley",
+          "title": "Somethin' Else",
+          "performer": "Cannonball Adderley",
+          "note": "Hard bop with Miles Davis as sideman."
+        },
+        {
+          "id": "clifford-brown-max-roach",
+          "artist": "Clifford Brown & Max Roach",
+          "title": "Clifford Brown & Max Roach",
+          "performer": "Clifford Brown & Max Roach",
+          "note": "Trumpet brilliance cut tragically short."
+        }
+      ],
+      "era_bridge_to_next": "Jazz had reached the highest levels of sophistication. But on the radio, rhythm and blues was taking over — simpler harmonies, a heavy backbeat, amplified guitars, voices drenched in gospel. Rock was born when R&B met country. Soul emerged when gospel singers entered the studio. Funk emerged when James Brown stripped everything to rhythm. The center of gravity shifted from the jazz club to the recording studio."
+    },
+    {
+      "id": "era-9-rnb-soul-funk-rock",
+      "number": 9,
+      "name": "R&B, Soul, Funk, Rock",
+      "year_range": "1950–1975",
+      "tagline": "The Pop Century Detonates",
+      "what_to_learn": [
+        "The studio as instrument — producers and engineers become creative forces",
+        "The backbeat + riff as the organizing principle of popular music",
+        "Gospel harmony and vocal technique → soul phrasing",
+        "Funk: interlocking parts as a new form of counterpoint",
+        "The album becomes an art form, not just a collection of singles",
+        "Electric amplification changes everything"
+      ],
+      "key_figures": ["Chuck Berry", "Little Richard", "Ray Charles", "Sam Cooke", "Aretha Franklin", "James Brown", "The Beatles", "Jimi Hendrix", "Stevie Wonder", "Marvin Gaye"],
+      "required_albums": [
+        {
+          "id": "aretha-franklin-i-never-loved-a-man",
+          "role": "gateway",
+          "artist": "Aretha Franklin",
+          "title": "I Never Loved a Man the Way I Love You",
+          "performer": "Aretha Franklin",
+          "year": 1967,
+          "why_role": "Aretha is the most direct line from gospel to popular music. Her voice commands total attention. The listener hears gospel, blues, jazz, and pop fused into a single, overwhelming vocal force.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Aretha Franklin", "Aretha", "The Queen of Soul"],
+            "title_aliases": ["I Never Loved a Man the Way I Love You", "I Never Loved a Man"]
+          }
+        },
+        {
+          "id": "beatles-revolver",
+          "role": "deep-dive",
+          "artist": "The Beatles",
+          "title": "Revolver",
+          "performer": "The Beatles",
+          "year": 1966,
+          "why_role": "Revolver is where the Beatles stopped being a pop band and became studio artists. Every track experiments with something new. This is where the album becomes a cohesive artistic statement. It demands close, track-by-track attention.",
+          "metadata_match_hints": {
+            "artist_aliases": ["The Beatles", "Beatles"],
+            "title_aliases": ["Revolver"]
+          }
+        },
+        {
+          "id": "james-brown-live-at-the-apollo",
+          "role": "bridge-forward",
+          "artist": "James Brown",
+          "title": "Live at the Apollo",
+          "performer": "James Brown and His Famous Flames",
+          "year": 1963,
+          "why_role": "Brown strips music down to its rhythmic essence — the groove is everything, the band is a machine, every instrument is a percussion instrument. The DNA of funk, hip-hop, electronic music, and modern pop production is all here.",
+          "metadata_match_hints": {
+            "artist_aliases": ["James Brown", "The Godfather of Soul", "J. Brown"],
+            "title_aliases": ["Live at the Apollo", "Live at the Apollo 1962", "The Apollo"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "ray-charles-modern-sounds",
+          "artist": "Ray Charles",
+          "title": "Modern Sounds in Country and Western Music",
+          "performer": "Ray Charles",
+          "note": "Genre-smashing genius."
+        },
+        {
+          "id": "hendrix-electric-ladyland",
+          "artist": "Jimi Hendrix",
+          "title": "Electric Ladyland",
+          "performer": "The Jimi Hendrix Experience",
+          "note": "The electric guitar as orchestra."
+        },
+        {
+          "id": "stevie-wonder-innervisions",
+          "artist": "Stevie Wonder",
+          "title": "Innervisions",
+          "performer": "Stevie Wonder",
+          "note": "Funk, soul, social conscience, and synthesizers."
+        },
+        {
+          "id": "marvin-gaye-whats-going-on",
+          "artist": "Marvin Gaye",
+          "title": "What's Going On",
+          "performer": "Marvin Gaye",
+          "note": "The soul album as protest statement."
+        },
+        {
+          "id": "led-zeppelin-iv",
+          "artist": "Led Zeppelin",
+          "title": "IV",
+          "performer": "Led Zeppelin",
+          "note": "Blues-rock at its heaviest and most mythic."
+        },
+        {
+          "id": "sly-stone-riot-goin-on",
+          "artist": "Sly and the Family Stone",
+          "title": "There's a Riot Goin' On",
+          "performer": "Sly and the Family Stone",
+          "note": "Funk turns dark and psychedelic."
+        },
+        {
+          "id": "joni-mitchell-blue",
+          "artist": "Joni Mitchell",
+          "title": "Blue",
+          "performer": "Joni Mitchell",
+          "note": "The singer-songwriter as confessional artist."
+        },
+        {
+          "id": "rolling-stones-exile-on-main-st",
+          "artist": "The Rolling Stones",
+          "title": "Exile on Main St.",
+          "performer": "The Rolling Stones",
+          "note": "Rock and roll as messy, glorious excess."
+        },
+        {
+          "id": "curtis-mayfield-superfly",
+          "artist": "Curtis Mayfield",
+          "title": "Superfly",
+          "performer": "Curtis Mayfield",
+          "note": "Soundtrack as social commentary."
+        },
+        {
+          "id": "parliament-mothership-connection",
+          "artist": "Parliament",
+          "title": "Mothership Connection",
+          "performer": "Parliament",
+          "note": "Funk as science fiction."
+        },
+        {
+          "id": "al-green-lets-stay-together",
+          "artist": "Al Green",
+          "title": "Let's Stay Together",
+          "performer": "Al Green",
+          "note": "Southern soul at its smoothest."
+        },
+        {
+          "id": "nina-simone-i-put-a-spell",
+          "artist": "Nina Simone",
+          "title": "I Put a Spell on You",
+          "performer": "Nina Simone",
+          "note": "Classical training meets jazz meets civil rights fury."
+        },
+        {
+          "id": "bob-dylan-highway-61",
+          "artist": "Bob Dylan",
+          "title": "Highway 61 Revisited",
+          "performer": "Bob Dylan",
+          "note": "Folk goes electric. Lyrics become literature."
+        }
+      ],
+      "era_bridge_to_next": "James Brown's rhythm-first approach changed everything. Then technology caught up. Drum machines, samplers, synthesizers — the producer replaced the band as auteur. In the Bronx, DJs looped breakbeats. In Düsseldorf, Kraftwerk built electronic pop from scratch. The collage replaced the composition."
+    },
+    {
+      "id": "era-10-hiphop-electronic-alternative",
+      "number": 10,
+      "name": "Hip-Hop, Electronic, Alternative",
+      "year_range": "1975–1995",
+      "tagline": "Sampling and the Producer as Auteur",
+      "what_to_learn": [
+        "Sampling as composition — collage becomes canon",
+        "Drum machines, synthesizers, and sound design as identity",
+        "The MC/rapper as lyrical voice — words, flow, and rhythm as high art",
+        "Electronic music as a parallel revolution",
+        "Genre begins to fragment into subcultures and scenes"
+      ],
+      "key_figures": ["Grandmaster Flash", "Run-DMC", "Public Enemy", "A Tribe Called Quest", "Nas", "Dr. Dre", "Kraftwerk", "Brian Eno", "Aphex Twin"],
+      "required_albums": [
+        {
+          "id": "a-tribe-called-quest-low-end-theory",
+          "role": "gateway",
+          "artist": "A Tribe Called Quest",
+          "title": "The Low End Theory",
+          "performer": "A Tribe Called Quest",
+          "year": 1991,
+          "why_role": "Hip-hop at its most musical. Jazz-inflected beats, walking bass lines, warm production. Ron Carter, the legendary jazz bassist, plays on a track. The direct connection between jazz and hip-hop made audible.",
+          "metadata_match_hints": {
+            "artist_aliases": ["A Tribe Called Quest", "ATCQ", "Tribe Called Quest"],
+            "title_aliases": ["The Low End Theory", "Low End Theory"]
+          }
+        },
+        {
+          "id": "public-enemy-it-takes-a-nation",
+          "role": "deep-dive",
+          "artist": "Public Enemy",
+          "title": "It Takes a Nation of Millions to Hold Us Back",
+          "performer": "Public Enemy",
+          "year": 1988,
+          "why_role": "The Bomb Squad's production is a wall of noise — sirens, samples, shards of funk and soul layered into a dense, abrasive collage. The most sonically challenging album since the Rite of Spring. It rewards effort.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Public Enemy", "P.E."],
+            "title_aliases": ["It Takes a Nation of Millions to Hold Us Back", "It Takes a Nation", "Nation of Millions"]
+          }
+        },
+        {
+          "id": "nas-illmatic",
+          "role": "bridge-forward",
+          "artist": "Nas",
+          "title": "Illmatic",
+          "performer": "Nas",
+          "year": 1994,
+          "why_role": "Ten tracks, no filler, thirty-nine minutes. The culmination of hip-hop's first golden age and the template for everything that follows. Its warm, sample-heavy sonic palette points toward the more eclectic hybrid era.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Nas", "Nasir Jones"],
+            "title_aliases": ["Illmatic"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "dr-dre-the-chronic",
+          "artist": "Dr. Dre",
+          "title": "The Chronic",
+          "performer": "Dr. Dre",
+          "note": "West Coast G-funk."
+        },
+        {
+          "id": "wu-tang-enter-the-wu-tang",
+          "artist": "Wu-Tang Clan",
+          "title": "Enter the Wu-Tang (36 Chambers)",
+          "performer": "Wu-Tang Clan",
+          "note": "Raw, gritty, genre-defining."
+        },
+        {
+          "id": "outkast-aquemini",
+          "artist": "Outkast",
+          "title": "Aquemini",
+          "performer": "Outkast",
+          "note": "Southern hip-hop expands the vocabulary."
+        },
+        {
+          "id": "eric-b-rakim-paid-in-full",
+          "artist": "Eric B. & Rakim",
+          "title": "Paid in Full",
+          "performer": "Eric B. & Rakim",
+          "note": "The MC as poet."
+        },
+        {
+          "id": "de-la-soul-3-feet-high",
+          "artist": "De La Soul",
+          "title": "3 Feet High and Rising",
+          "performer": "De La Soul",
+          "note": "Playful, sample-heavy, psychedelic hip-hop."
+        },
+        {
+          "id": "notorious-big-ready-to-die",
+          "artist": "Notorious B.I.G.",
+          "title": "Ready to Die",
+          "performer": "Notorious B.I.G.",
+          "note": "East Coast storytelling at its most vivid."
+        },
+        {
+          "id": "lauryn-hill-miseducation",
+          "artist": "Lauryn Hill",
+          "title": "The Miseducation of Lauryn Hill",
+          "performer": "Lauryn Hill",
+          "note": "Hip-hop, soul, and reggae fused."
+        },
+        {
+          "id": "mf-doom-mm-food",
+          "artist": "MF DOOM",
+          "title": "Mm..Food",
+          "performer": "MF DOOM",
+          "note": "Underground hip-hop as collage art."
+        },
+        {
+          "id": "kraftwerk-trans-europe-express",
+          "artist": "Kraftwerk",
+          "title": "Trans-Europe Express",
+          "performer": "Kraftwerk",
+          "note": "The blueprint for electronic pop."
+        },
+        {
+          "id": "brian-eno-ambient-1",
+          "artist": "Brian Eno",
+          "title": "Ambient 1: Music for Airports",
+          "performer": "Brian Eno",
+          "note": "The invention of ambient."
+        },
+        {
+          "id": "aphex-twin-selected-ambient-works",
+          "artist": "Aphex Twin",
+          "title": "Selected Ambient Works 85–92",
+          "performer": "Aphex Twin",
+          "note": "Electronic music as emotional landscape."
+        },
+        {
+          "id": "new-order-power-corruption-lies",
+          "artist": "New Order",
+          "title": "Power, Corruption & Lies",
+          "performer": "New Order",
+          "note": "Post-punk meets synth-pop meets dance music."
+        },
+        {
+          "id": "depeche-mode-violator",
+          "artist": "Depeche Mode",
+          "title": "Violator",
+          "performer": "Depeche Mode",
+          "note": "Dark electronic pop at its most polished."
+        },
+        {
+          "id": "dj-shadow-endtroducing",
+          "artist": "DJ Shadow",
+          "title": "Endtroducing.....",
+          "performer": "DJ Shadow",
+          "note": "Entirely built from samples."
+        },
+        {
+          "id": "massive-attack-mezzanine",
+          "artist": "Massive Attack",
+          "title": "Mezzanine",
+          "performer": "Massive Attack",
+          "note": "Trip-hop: dub bass, hip-hop beats, cinematic darkness."
+        },
+        {
+          "id": "boards-of-canada-music-has-right",
+          "artist": "Boards of Canada",
+          "title": "Music Has the Right to Children",
+          "performer": "Boards of Canada",
+          "note": "Nostalgic, decayed electronic beauty."
+        },
+        {
+          "id": "pixies-doolittle",
+          "artist": "Pixies",
+          "title": "Doolittle",
+          "performer": "Pixies",
+          "note": "Loud-quiet-loud. The template for alternative rock."
+        },
+        {
+          "id": "my-bloody-valentine-loveless",
+          "artist": "My Bloody Valentine",
+          "title": "Loveless",
+          "performer": "My Bloody Valentine",
+          "note": "Guitar as texture, as weather, as overwhelming force."
+        },
+        {
+          "id": "nirvana-nevermind",
+          "artist": "Nirvana",
+          "title": "Nevermind",
+          "performer": "Nirvana",
+          "note": "Punk meets pop. Underground goes mainstream."
+        },
+        {
+          "id": "talking-heads-remain-in-light",
+          "artist": "Talking Heads",
+          "title": "Remain in Light",
+          "performer": "Talking Heads",
+          "note": "Art-rock meets Afrobeat meets funk."
+        },
+        {
+          "id": "joy-division-unknown-pleasures",
+          "artist": "Joy Division",
+          "title": "Unknown Pleasures",
+          "performer": "Joy Division",
+          "note": "Post-punk as existential dread."
+        }
+      ],
+      "era_bridge_to_next": "By the mid-1990s, genre boundaries were dissolving. Radiohead absorbed electronic production. Hip-hop producers sampled from every tradition. D'Angelo fused soul, funk, jazz, and hip-hop. The internet accelerated everything. Genre stopped being a fence and became a toolbox."
+    },
+    {
+      "id": "era-11-hybrid-era",
+      "number": 11,
+      "name": "The Hybrid Era",
+      "year_range": "1995–Now",
+      "tagline": "Global Feedback Loops and Genre Dissolution",
+      "what_to_learn": [
+        "Genre boundaries blur — artists draw freely from any tradition",
+        "Scenes become networks, connected by the internet rather than geography",
+        "The album persists as art form even as streaming dominates",
+        "Production reaches new levels of sophistication",
+        "The Great Conversation becomes global"
+      ],
+      "key_figures": ["Radiohead", "D'Angelo", "Kendrick Lamar", "Beyoncé", "Kamasi Washington", "Frank Ocean", "Björk", "Kanye West"],
+      "required_albums": [
+        {
+          "id": "dangelo-voodoo",
+          "role": "gateway",
+          "artist": "D'Angelo",
+          "title": "Voodoo",
+          "performer": "D'Angelo",
+          "year": 2000,
+          "why_role": "Every layer of the MUSE curriculum converges here: funk rhythms, jazz harmony, soul vocals, studio craft, hip-hop sensibility. The listener should be able to hear everything they've learned in this album.",
+          "metadata_match_hints": {
+            "artist_aliases": ["D'Angelo", "DAngelo"],
+            "title_aliases": ["Voodoo"]
+          }
+        },
+        {
+          "id": "kendrick-lamar-to-pimp-a-butterfly",
+          "role": "deep-dive",
+          "artist": "Kendrick Lamar",
+          "title": "To Pimp a Butterfly",
+          "performer": "Kendrick Lamar",
+          "year": 2015,
+          "why_role": "The most ambitious album of the 21st century. Jazz, funk, spoken word, rap, soul, and free poetry woven into a narrative about race, identity, fame, and self-destruction. This demands the full three-listen treatment: the first listen overwhelms, the second reveals structure, the third reveals how every thread connects to the 400-year story MUSE has been telling.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Kendrick Lamar", "Kendrick", "K. Lamar"],
+            "title_aliases": ["To Pimp a Butterfly", "TPAB"]
+          }
+        },
+        {
+          "id": "radiohead-kid-a",
+          "role": "bridge-forward",
+          "artist": "Radiohead",
+          "title": "Kid A",
+          "performer": "Radiohead",
+          "year": 2000,
+          "why_role": "Rock dissolves into electronic modernism. As the final required album in the curriculum, it doesn't bridge forward to another era — it bridges forward to the listener's own future. After Kid A, MUSE's guided path ends. The listener now has the vocabulary and the trained ear to explore any music on their own terms.",
+          "metadata_match_hints": {
+            "artist_aliases": ["Radiohead"],
+            "title_aliases": ["Kid A"]
+          }
+        }
+      ],
+      "go_deeper_albums": [
+        {
+          "id": "beyonce-lemonade",
+          "artist": "Beyoncé",
+          "title": "Lemonade",
+          "performer": "Beyoncé",
+          "note": "Genre collage as narrative pop. Visual album as art form."
+        },
+        {
+          "id": "kamasi-washington-the-epic",
+          "artist": "Kamasi Washington",
+          "title": "The Epic",
+          "performer": "Kamasi Washington",
+          "note": "Modern jazz mythos. Big, ambitious, communal."
+        },
+        {
+          "id": "frank-ocean-blonde",
+          "artist": "Frank Ocean",
+          "title": "Blonde",
+          "performer": "Frank Ocean",
+          "note": "Minimalist R&B as private confession."
+        },
+        {
+          "id": "bjork-homogenic",
+          "artist": "Björk",
+          "title": "Homogenic",
+          "performer": "Björk",
+          "note": "Electronic music meets Icelandic volcanic drama."
+        },
+        {
+          "id": "tyler-the-creator-igor",
+          "artist": "Tyler, the Creator",
+          "title": "IGOR",
+          "performer": "Tyler, the Creator",
+          "note": "Neo-soul, synth-pop, and hip-hop melted together."
+        },
+        {
+          "id": "kanye-west-mbdtf",
+          "artist": "Kanye West",
+          "title": "My Beautiful Dark Twisted Fantasy",
+          "performer": "Kanye West",
+          "note": "Maximalist pop-rap as grand statement."
+        },
+        {
+          "id": "fiona-apple-fetch-the-bolt-cutters",
+          "artist": "Fiona Apple",
+          "title": "Fetch the Bolt Cutters",
+          "performer": "Fiona Apple",
+          "note": "Percussive, raw, liberated."
+        },
+        {
+          "id": "solange-a-seat-at-the-table",
+          "artist": "Solange",
+          "title": "A Seat at the Table",
+          "performer": "Solange",
+          "note": "Quiet R&B as radical self-possession."
+        },
+        {
+          "id": "anderson-paak-malibu",
+          "artist": "Anderson .Paak",
+          "title": "Malibu",
+          "performer": "Anderson .Paak",
+          "note": "Funk, soul, hip-hop, and sunshine."
+        },
+        {
+          "id": "burial-untrue",
+          "artist": "Burial",
+          "title": "Untrue",
+          "performer": "Burial",
+          "note": "London bass music as urban loneliness."
+        },
+        {
+          "id": "james-blake-james-blake",
+          "artist": "James Blake",
+          "title": "James Blake",
+          "performer": "James Blake",
+          "note": "Post-dubstep meets soul."
+        },
+        {
+          "id": "flying-lotus-cosmogramma",
+          "artist": "Flying Lotus",
+          "title": "Cosmogramma",
+          "performer": "Flying Lotus",
+          "note": "Jazz, electronic, and hip-hop in freefall."
+        },
+        {
+          "id": "sza-ctrl",
+          "artist": "SZA",
+          "title": "Ctrl",
+          "performer": "SZA",
+          "note": "Vulnerable R&B for the streaming generation."
+        },
+        {
+          "id": "childish-gambino-awaken-my-love",
+          "artist": "Childish Gambino",
+          "title": "\"Awaken, My Love!\"",
+          "performer": "Childish Gambino",
+          "note": "Funk and soul revivalism through a modern lens."
+        }
+      ],
+      "era_bridge_to_next": ""
+    }
+  ],
+  "connections": [],
+  "visual_identity": {
+    "era_themes": []
+  }
+}

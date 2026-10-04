@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables — never commit these
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel/
+
+# TypeScript build cache
+node_modules/.tmp/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+.env*.local
+
+# macOS duplicate files & folders (Finder "Duplicate" / AirDrop copies, e.g. "name 2.ext", "name 2/")
+*\ 2.*
+*\ 2
+
+# Claude worktrees
+.claude/
